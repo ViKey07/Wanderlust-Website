@@ -98,7 +98,32 @@ input.form-control{
 h5#scroll-bar-title{
     text-align: center;
     font-family: 'Raleway';
-    padding-top: 30px;
+    padding-top: 15px;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categories-card{
+    width: 15%;
+    margin: 20px;
+    transition: transform 0.5s;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.categories-card:hover{
+    /* width: 20%; */
+    transform: scale(1.2);
+    /* transition: ; */
+}
+
+.card-title1{
+    font-size: small;
+    font-family: 'Raleway';
 }
 
 .symbol{
@@ -108,7 +133,8 @@ h5#scroll-bar-title{
 
 .card{
     width: 45%;
-    margin: 20px;
+    margin: 10px;
+    border-radius: none;
 }
 
 .cards-info{
@@ -127,7 +153,7 @@ h5#scroll-bar-title{
 
 .hdng{
     color: white;
-    font-family: 'Raleway';
+    font-family: 'Arimo', sans-serif;
 }
 
 .vdo{
@@ -142,5 +168,45 @@ h5#scroll-bar-title{
 .ftr-content{
     width: 100%;
     margin: 0 auto;
+    padding-top: 20vh;
+}
+
+.search-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border: none;
+    border-radius:100px ;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input:focus{
+    outline: none;
+}
+
+.search-bar{
+    width: 100%;
+    margin: 0 auto;
     padding-top: 25vh;
+}
+
+.search-input input{
+    border: 0;
+    width: 100%;
+}
+.search-input img{
+    width: 25px;
+}
+
+.search-input input::placeholder{
+    font-family: 'Raleway';
+}
+br{
+    font-size: 10%;
+}
+iframe.yt{
+    border-radius: 10px !important;
 }
