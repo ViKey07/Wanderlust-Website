@@ -108,7 +108,7 @@ h5#scroll-bar-title{
 }
 
 .categories-card{
-    width: 15%;
+    width: 200px;
     margin: 20px;
     transition: transform 0.5s;
     border-radius: 5px;
