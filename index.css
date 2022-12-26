@@ -108,7 +108,7 @@ h5#scroll-bar-title{
 }
 
 .categories-card{
-    width: 200px;
+    width: 230px;
     margin: 20px;
     transition: transform 0.5s;
     border-radius: 5px;
@@ -133,7 +133,7 @@ h5#scroll-bar-title{
 
 .card{
     width: 45%;
-    margin: 10px;
+    margin: 15px;
     border-radius: none;
 }
 
@@ -168,7 +168,7 @@ h5#scroll-bar-title{
 .ftr-content{
     width: 100%;
     margin: 0 auto;
-    padding-top: 20vh;
+    padding-top: 10vh;
 }
 
 .search-input{
@@ -190,7 +190,7 @@ input:focus{
 .search-bar{
     width: 100%;
     margin: 0 auto;
-    padding-top: 25vh;
+    padding-top: 42vh;
 }
 
 .search-input input{
@@ -209,4 +209,41 @@ br{
 }
 iframe.yt{
     border-radius: 10px !important;
+}
+
+.subs{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    padding: 13px 25px;
+}
+
+.search-input2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-radius:100px ;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.search-input2 input{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-right: 20px;
+    opacity: 0.5;
+}
+
+.search-input2 input::placeholder{
+    font-family: 'Raleway';
+    color: black;
+    padding-left: 10px;
+}
+
+.map{
+    width: 100%;
 }
