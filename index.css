@@ -1,12 +1,11 @@
 .header-out{
     background-image: linear-gradient(0deg, rgba(0, 0, 50, 0.4), rgba(0, 0, 50, 0.4)), url("/assets/Taj-Mahal.png");
-    /* background-position: center; */
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-size: cover;
     height: 100vh;
     opacity: 100%;
 }
+ 
 .header-in .navbar-in nav{
     background-color: white !important;
     padding: 10px 25px;
@@ -17,10 +16,9 @@
 }
 
 .search{
-    /* padding: 28% 0% 0% 36%; */    
     width: 50%;
     margin: 0 auto;
-    padding-top: 43vh;
+    padding-top: 25vh;
 }
 
 .hdng{
@@ -41,12 +39,6 @@ h2{
 .bar{
     padding-left: 9%;
 }
-
-/* .srch{
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-} */
 
 input{
     border: none;
@@ -91,7 +83,7 @@ input.form-control{
 
 .sb{
     border: none;
-    /* background: none;     */
+
     border-top-right-radius: 50%;
 }
 
@@ -116,9 +108,7 @@ h5#scroll-bar-title{
 }
 
 .categories-card:hover{
-    /* width: 20%; */
     transform: scale(1.2);
-    /* transition: ; */
 }
 
 .card-title1{
@@ -137,7 +127,7 @@ h5#scroll-bar-title{
     border-radius: none;
 }
 
-.cards-info{
+.tourists-attraction{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -166,6 +156,7 @@ h5#scroll-bar-title{
 }
 
 .ftr-content{
+    
     width: 100%;
     margin: 0 auto;
     padding-top: 10vh;
@@ -289,8 +280,6 @@ iframe.yt{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    /* width: 50%; */
-    /* margin: 0 auto; */
 }
 
 .end-foot{
