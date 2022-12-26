@@ -1,11 +1,5 @@
-.header-out{
-    background-image: linear-gradient(0deg, rgba(0, 0, 50, 0.4), rgba(0, 0, 50, 0.4)), url("/assets/Taj-Mahal.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    opacity: 100%;
-}
- 
+/* =============================== Navbar ================================ */
+
 .header-in .navbar-in nav{
     background-color: white !important;
     padding: 10px 25px;
@@ -21,77 +15,77 @@
     padding-top: 25vh;
 }
 
-.hdng{
-    text-align: center;
-}
-
 a.nav-link {
     color: black;
     font-family: 'Raleway';
 }
 
-h2{
-    font-family: 'Monaco';
-    color: white;
+/* ================================= Home Page Search =================================== */
+
+.header-out{
+    background-image: linear-gradient(0deg, rgba(0, 0, 50, 0.4), rgba(0, 0, 50, 0.4)), url("/assets/Taj-Mahal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 100%;
+}
+
+.hdng1{
     padding-bottom: 30px;
 }
 
-.bar{
-    padding-left: 9%;
-}
-
-input{
+.home-search{
     border: none;
     border-radius: 5px;
     padding: 10px;
 }
 
-input.in{
+.home-search:focus{
+    outline: none;
+}
+
+.hdng1{
+    text-align: center;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    padding-top: 43vh;
+}
+
+.search-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border: none;
+    border-radius:100px ;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.search-input input{
+    border: 0;
+    width: 100%;
+}
+
+.search-input input::placeholder{
     font-family: 'Raleway';
 }
 
-.md{
-    position:absolute;
-    left:50%;
-    bottom:0px;
-}
-
-.has-search .form-control {
-    padding-left: 2.375rem;
-}
-
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-}
-
-input.form-control{
-    border-radius: 20px;
-}
-
-.input-group-append button.btn{
-    background-color: rgb(46, 176, 176);
-    border: none;
-}
-
-.sb{
-    border: none;
-
-    border-top-right-radius: 50%;
-}
+/* ============================== Fillers between sections ============================= */
 
 h5#scroll-bar-title{
     text-align: center;
     font-family: 'Raleway';
     padding-top: 15px;
 }
+
+.symbol{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* =================================== Categories =================================== */
 
 .categories{
     display: flex;
@@ -116,10 +110,11 @@ h5#scroll-bar-title{
     font-family: 'Raleway';
 }
 
-.symbol{
-    text-align: center;
-    padding-bottom: 10px;
+.categories img.card-img-top{
+    height: 150px;
 }
+
+/* ============================= Section Cards ================================== */
 
 .card{
     width: 45%;
@@ -133,22 +128,14 @@ h5#scroll-bar-title{
     justify-content: center;
 }
 
+/* ======================= footer discover div ======================== */
+
 .header-out2{
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/bigstock-China-The-Great-Wall.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     opacity: 100%;
-}
-
-.hdng{
-    color: white;
-    font-family: 'Arimo', sans-serif;
-}
-
-.vdo{
-    width: 50%;
-    
 }
 
 .input-group{
@@ -162,44 +149,30 @@ h5#scroll-bar-title{
     padding-top: 10vh;
 }
 
-.search-input{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 30px;
-    border: none;
-    border-radius:100px ;
-    background-color: white;
-    width: 50%;
-    margin: 0 auto;
+iframe.yt{
+    border-radius: 10px !important;
 }
 
-input:focus{
-    outline: none;
+
+/* =========================== footer offer div =========================== */
+
+.hdng2{
+    text-align: center;
+    color: white;
+    font-family: 'Arimo', sans-serif;
 }
 
-.search-bar{
+.search-bar2.header-out{
     width: 100%;
     margin: 0 auto;
     padding-top: 42vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 50, 0.4), rgba(0, 0, 50, 0.4)), url(/assets/chichen.png);
 }
 
-.search-input input{
-    border: 0;
-    width: 100%;
-}
-.search-input img{
-    width: 25px;
-}
-
-.search-input input::placeholder{
-    font-family: 'Raleway';
-}
-br{
-    font-size: 10%;
-}
-iframe.yt{
-    border-radius: 10px !important;
+.offer-search{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .subs{
@@ -235,9 +208,14 @@ iframe.yt{
     padding-left: 10px;
 }
 
+
+/* ============================= footer map div ======================== */
+
 .map{
     width: 100%;
 }
+
+/* ============================= main footer div ============================ */
 
 .main-foot{
     display: flex;
@@ -301,4 +279,34 @@ ul{
 
 li{
     padding-bottom: 10px;
+}
+
+
+/* ============================================================================================== */
+/* ======================================= page 2 =============================================== */
+
+/* ==================================== page 2 Homepage ======================================= */
+
+.details-page{
+    position: relative;
+}
+
+.details-page-image{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+/* ==================================== page 2 details div ======================================= */
+
+.detail-info{
+    padding: 20px 100px;
+}
+
+.arw{
+    position: absolute;
+    background-color: brown;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
 }
