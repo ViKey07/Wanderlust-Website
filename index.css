@@ -303,10 +303,17 @@ li{
     padding: 20px 100px;
 }
 
-.arw{
+.layover{
     position: absolute;
-    background-color: brown;
+    /* background-color: brown; */
     z-index: 2;
     bottom: 0;
     right: 0;
+    padding: 0px 50px 70px 0px;
+    display: flex;
+    align-items: baseline;
+}
+
+.layover img {
+    margin: 10px;
 }
